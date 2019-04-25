@@ -1,2 +1,2 @@
 # node-ejs
-Node JS ejs template engine
+Node JS ejs template engine demo
