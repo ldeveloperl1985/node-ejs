@@ -7,6 +7,10 @@ const server = require('http').Server(app);
 app.set('view engine', 'ejs');
 
 // endpoints
+app.get('/logout_redirect_uri', (req, res) => {
+  res.render('logout');
+});
+
 app.get('/todos', (req, res) => {
   res.render('todos');
 });
