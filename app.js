@@ -15,7 +15,7 @@ app.get('/todos', (req, res) => {
   res.render('todos');
 });
 
-app.get('/users', (req, res) => {
+app.get('/users/', (req, res) => {
   res.render('users');
 });
 
