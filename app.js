@@ -11,15 +11,19 @@ app.get('/logout_redirect_uri', (req, res) => {
   res.render('logout');
 });
 
-app.get('/todos', (req, res) => {
-  res.render('todos');
+app.get('/flights/', (req, res) => {
+  res.render('flights');
 });
 
-app.get('/users/', (req, res) => {
-  res.render('users');
+app.get('/settings/', (req, res) => {
+  res.render('settings');
 });
 
-app.get('/home', (req, res) => {
+app.get('/payments/', (req, res) => {
+  res.render('payments');
+});
+
+app.get('/home/', (req, res) => {
   res.render('home');
 });
 
